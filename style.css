@@ -1,0 +1,30 @@
+:root {
+	color-scheme: dark;
+	background-color: #000000;
+	--color-50: oklch(0.95 0.151 104.29);
+	--color-200: oklch(0.943 0.169 104.29);
+	--color-300: oklch(0.937 0.187 104.29);
+	--color-500: oklch(0.93 0.197 104.29);
+	--color-700: oklch(0.797 0.168 104.29);
+	--color-800: oklch(0.663 0.14 104.29);
+	--color-950: oklch(0.53 0.112 104.29);
+	color: var(--color-50)
+}
+button{
+	font-size: 24px;
+}
+.container {
+	display: flex;
+	justify-content: center;
+}
+
+a:link {
+  color: orange;
+}
+a:visited {
+  color: #d1731b;
+}
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
